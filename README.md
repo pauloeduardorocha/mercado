@@ -1,16 +1,29 @@
-# Building REST API with Node, JWT(Json Web Token) and Express 4
+# REST API com Node, JWT(Json Web Token) and Express 4
 
-## Introduction
-* In this tutorial we will be developing simple REST API for movies collection with their released date. We gonna implement simple CRUD(Create, Read, Update and Delete) operations on movie collection data in our journey.
-* Refer medium article for complete [tutorial](https://medium.com/@bhanushali.mahesh3/building-a-restful-crud-api-with-node-js-jwt-bcrypt-express-and-mongodb-4e1fb20b7f3d)
+## Requisitos
+* Para rodar o projeto, instale:
+- NodeJS: https://nodejs.org/en/download/
+- MongoDB: https://www.mongodb.com/download-center/community
+- GIT: https://git-scm.com/download/win
 
-## Requirements
-* Node, NPM & MongoDB
+* Após a instalação dos requisitos, para baixar o projeto, vá pelo cmd até a pasta que deseja utilizar.
+Ex.: ``` cd C:\Users\Paulo\Documents> ```
+Digite: ```git clone https://github.com/pauloeduardorocha/mercado.git ```
 
-## Installation
-* Clone this repo: ``` git clone https://github.com/bhanushalimahesh3/node-rest-api-jwt.git ```
-* Install dependecies: ``` npm install ```
-* Install nodemon: ``` npm install nodemon -g ```
+## Instalação
+* Entre na pasta criada após o clone: ``` cd  .\mercado```
+* Instale as dependecias: ``` npm install ```
+* Instale o nodemon: ``` npm install nodemon -g ```
 
+## Execução
+* Dentro do diretório, digite o comando: ``` npm run dev ```
+* Pelo browser, navegue até localhost:3000
+
+## Funcionou?
+Dê uma olhada nos arquivos do projeto:
+./server.js
+./routes/
+./src/controllers/
+./src/models/
  
 
