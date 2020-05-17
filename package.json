@@ -4,7 +4,8 @@
   "description": "Build REST API with nodejs, express, mongodb and jwt",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "Node",
@@ -16,12 +17,12 @@
   "author": "Mahesh Bhanushali",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "2.0.1",
-    "body-parser": "1.18.2",
-    "express": "4.16.3",
-    "jsonwebtoken": "8.2.1",
-    "mongoose": "5.0.13",
-    "morgan": "1.9.0"
+    "bcrypt": ">=4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "eslint": "4.19.1"

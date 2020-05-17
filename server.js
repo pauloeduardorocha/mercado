@@ -1,6 +1,6 @@
 const express = require('express');
 const logger = require('morgan');
-const movies = require('./routes/movies') ;
+const products = require('./routes/products') ;
 const users = require('./routes/users');
 const bodyParser = require('body-parser');
 const mongoose = require('./config/database'); //database configuration
@@ -16,14 +16,14 @@ app.use(logger('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function(req, res){
-res.json({"tutorial" : "Build REST API with node.js"});
+res.json({"status" : "OK"});
 });
 
 // public route
 app.use('/users', users);
 
 // private route
-app.use('/movies', validateUser, movies);
+app.use('/products', validateUser, products);
 
 
 app.get('/favicon.ico', function(req, res) {
